@@ -37,7 +37,7 @@ function chooseQuestion(word) {
     `this might be a stupid question but what is "${word}" lol`,
     `so I guess "${word}" is the new "${words[Math.floor(Math.random() * words.length)]}" now`,
     `I've made a pact with myself to never use the word "${word}" lol`,
-    `If you've ever said the word "${word} unironically please unfollow me"`,
+    `If you've ever said the word "${word}" unironically please unfollow me`,
     `I don't "get" ${pluralize(word)}`,
     `NOBODY👏CARES👏ABOUT👏YOUR👏DAMN👏${pluralize(word).toUpperCase()}`,
     `Ok we need to talk about ${pluralize(word)}`,
