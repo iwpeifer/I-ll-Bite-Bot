@@ -35,7 +35,7 @@ function chooseQuestion(word) {
     `is "${word}" considered a bad word yet lol`,
     `WHAT IS ${word.toUpperCase()}???`,
     `this might be a stupid question but what is "${word}" lol`,
-    `so I guess "${word}" is the new "${words[Math.floor(Math.random() * words.length)]} now"`,
+    `so I guess "${word}" is the new "${words[Math.floor(Math.random() * words.length)]}" now`,
     `I've made a pact with myself to never use the word "${word}" lol`,
     `If you've ever said the word "${word} unironically please unfollow me"`,
     `I don't "get" ${pluralize(word)}`,
@@ -49,7 +49,8 @@ function chooseQuestion(word) {
     `Fuck ${pluralize(word)}`,
     `I hate people who think they sound smart tossing around the word "${word}" lol`,
     `${pluralize(word)} suck ass lol`,
-    `You are a literal child if you think "${pluralize(word)}" will save you from the hell that is capitalism`
+    `You are a literal child if you think "${pluralize(word)}" will save you from the hell that is capitalism`,
+    `One word. ${word}.`
   ];
   return sentences[Math.floor(Math.random() * sentences.length)];
 }
